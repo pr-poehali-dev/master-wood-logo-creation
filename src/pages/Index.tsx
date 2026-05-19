@@ -132,7 +132,7 @@ const Index = () => {
               <span className="text-amber">ВУД</span>
             </h1>
             <p className="font-body text-lg md:text-xl text-dust max-w-xl mb-10 leading-relaxed" style={{ fontWeight: 300 }}>
-              Полный цикл деревообработки — от бревна до готового изделия. Точность, масштаб, мастерство.
+              Распиловка и строгание древесины.<br />Качественные пиломатериалы для строительства и производства.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#catalog" className="btn-primary">Смотреть продукцию</a>
