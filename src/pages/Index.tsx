@@ -143,12 +143,15 @@ const Index = () => {
             {[
               { n: '15+', label: 'Лет на рынке' },
               { n: '1000', label: 'м³ в месяц' },
-              { n: '', label: 'Надежные партнеры' },
+              { n: null, label: 'Надежные партнеры' },
               { n: '100%', label: 'Контроль качества' },
             ].map(s => (
               <div key={s.label} className="bg-iron px-6 py-5">
-                <div className="stat-number">{s.n}</div>
-                <div className="text-dust text-xs font-body mt-1" style={{ letterSpacing: '0.05em' }}>{s.label}</div>
+                {s.n !== null
+                  ? <div className="stat-number">{s.n}</div>
+                  : <div className="font-display text-2xl font-bold text-amber leading-tight">{s.label}</div>
+                }
+                {s.n !== null && <div className="text-dust text-xs font-body mt-1" style={{ letterSpacing: '0.05em' }}>{s.label}</div>}
               </div>
             ))}
           </div>
