@@ -312,7 +312,7 @@ const Index = () => {
               {[
                 { icon: 'Phone', label: 'Телефон', value: '+7 (495) 000-00-00' },
                 { icon: 'Mail', label: 'Email', value: 'info@mastervood.ru' },
-                { icon: 'MapPin', label: 'Адрес', value: 'Московская обл., Ногинский р-н, пос. Лесной, ул. Производственная, 1' },
+                { icon: 'MapPin', label: 'Адрес на карте', value: 'Вологодская обл., Грязовецкий р-н, д. Хорошево, ул. Новая, д. 21' },
                 { icon: 'Clock', label: 'Режим работы', value: 'Пн–Пт: 8:00–18:00, Сб: 9:00–14:00' },
               ].map(c => (
                 <div key={c.label} className="flex gap-4 items-start">
