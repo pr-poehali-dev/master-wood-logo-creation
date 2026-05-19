@@ -180,7 +180,7 @@ const Index = () => {
           <div className="relative">
             <img src={CRAFT_IMG} alt="Мастерство деревообработки" className="w-full object-cover" style={{ height: 480, filter: 'contrast(1.05) brightness(0.9)' }} />
             <div style={{ position: 'absolute', bottom: -16, left: -16, padding: '1.5rem', background: 'var(--amber)', color: 'var(--coal)' }}>
-              <div className="font-display text-3xl font-bold">25+</div>
+              <div className="font-display text-3xl font-bold">15+</div>
               <div className="font-body text-xs mt-0.5" style={{ letterSpacing: '0.05em' }}>ЛЕТ ОПЫТА</div>
             </div>
           </div>
