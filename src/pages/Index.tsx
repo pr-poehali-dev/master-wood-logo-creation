@@ -141,7 +141,7 @@ const Index = () => {
           </div>
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-px" style={{ background: 'var(--stone)' }}>
             {[
-              { n: '25+', label: 'Лет на рынке' },
+              { n: '15+', label: 'Лет на рынке' },
               { n: '8000', label: 'м³ в месяц' },
               { n: '150+', label: 'Партнёров' },
               { n: '100%', label: 'Контроль качества' },
