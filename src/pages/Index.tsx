@@ -143,7 +143,7 @@ const Index = () => {
             {[
               { n: '15+', label: 'Лет на рынке' },
               { n: '1000', label: 'м³ в месяц' },
-              { n: '150+', label: 'Партнёров' },
+              { n: '', label: 'Надежные партнеры' },
               { n: '100%', label: 'Контроль качества' },
             ].map(s => (
               <div key={s.label} className="bg-iron px-6 py-5">
